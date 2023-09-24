@@ -1,6 +1,8 @@
 body {
-  margin: 0;
+  margin-left: 5%;
   line-height: normal;
+  width: 85%;
+  align-items: center;
 }
 
 :root {
