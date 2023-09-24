@@ -1,26 +1,26 @@
 let movies = [
     {
-      name: "hgdfughdfuhgdfigjfsgjffbkjfigjifjg",
+      name: "Our goals",
       des:
-        "hellojndjnkvv kjbjbhuhiuhioj kjbkjhhkjnknknjn kbiuhiunhnkjbjiunhiojkljklnkjh kjbjhguhiuhiuhkjbkjbhhkkj hjbgihiuhiuhuhkh ihjjiohjjiohjhjiojjioj iojiojiojioj ",
+        "Centralize and Archive the Collective Wisdom of Universities.",
       Image: "images/xyz2.jpg"
     },
     {
-      name: "hgdfughdfuhgdf",
+      name: "Emerging Tech",
       des:
-        "hellojndjnkvv kjbjbhuhiuhioj kjbkjhhkjnknknjn kbiuhiunhnkjbjiunhiojkljklnkjh kjbjhguhiuhiuhkjbkjbhhkkj hjbgihiuhiuhuhkh ihjjiohjjiohjhjiojjioj iojiojiojioj  ",
+        "Embracing the Power of Cutting-Edge Technology.",
       Image: "images/hard2.jpg"
     },
     {
-      name: "hgdfughdfuhgdf",
+      name: "Accimilate Innovation",
       des:
-        "hellojndjnkvv kjbjbhuhiuhioj kjbkjhhkjnknknjn kbiuhiunhnkjbjiunhiojkljklnkjh kjbjhguhiuhiuhkjbkjbhhkkj hjbgihiuhiuhuhkh ihjjiohjjiohjhjiojjioj iojiojiojioj ",
+        "Fostering the Accumulation of Innovative Ideas and Knowledge.",
       Image: "images/soft.jpg"
     },
     {
-      name: "hgdfughdfuhgdf",
+      name: "Forging connections",
       des:
-        "hellojndjnkvv kjbjbhuhiuhioj kjbkjhhkjnknknjn kbiuhiunhnkjbjiunhiojkljklnkjh kjbjhguhiuhiuhkjbkjbhhkkj hjbgihiuhiuhuhkh ihjjiohjjiohjhjiojjioj iojiojiojioj ",
+        "Facilitating Networking and Collaboration for a Brighter Academic Future.",
       Image: "images/idea7.jpg"
     },
     
@@ -39,7 +39,7 @@ let movies = [
     var imgElement = document.createElement("img");
     let content = document.createElement("div");
     let h1 = document.createElement("h1");
-    let p = document.createElement("p");
+    let p = document.createElement("h2");
   
     imgElement.appendChild(document.createTextNode(""));
     h1.appendChild(document.createTextNode(movies[slideIndex].name));
