@@ -1,0 +1,615 @@
+.desktop-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 82px;
+}
+.component-1-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component-1-inner,
+.component-1-item,
+.rectangle-div {
+  position: absolute;
+  height: 9.43%;
+  width: 51.81%;
+  top: 45.28%;
+  right: 24.1%;
+  bottom: 45.28%;
+  left: 24.1%;
+  background-color: var(--color-gainsboro-100);
+}
+.component-1-inner,
+.rectangle-div {
+  top: 24.53%;
+  bottom: 66.04%;
+}
+.rectangle-div {
+  top: 66.04%;
+  bottom: 24.53%;
+}
+.component-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 1341px;
+  width: 83px;
+  height: 53px;
+}
+.desktop-1-item {
+  position: absolute;
+  top: 107px;
+  left: 29px;
+  border-radius: 20px;
+  background-color: var(--color-gainsboro-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 569px;
+  height: 892px;
+}
+.desktop-1-inner,
+.rectangle-icon {
+  position: absolute;
+  top: 269.34px;
+  left: 25px;
+  width: 576.51px;
+  height: 9.66px;
+}
+.rectangle-icon {
+  top: 132px;
+  left: 50px;
+  border-radius: 74px;
+  width: 129px;
+  height: 130px;
+  object-fit: cover;
+}
+.odisha-university-of {
+  margin: 0;
+  position: absolute;
+  top: 136px;
+  left: 177px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 408px;
+  height: 118px;
+}
+.span {
+  font-size: var(--font-size-22xl);
+  color: var(--color-gray-100);
+}
+.country-rank-34-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.country-rank-34-container,
+.world-rank-465-container {
+  position: absolute;
+  top: 270px;
+  left: 29px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 284px;
+  height: 96px;
+}
+.world-rank-465-container {
+  left: 313px;
+}
+.vector-icon {
+  position: absolute;
+  top: 271.5px;
+  left: 30px;
+  width: 567.5px;
+  height: 92.5px;
+}
+.desktop-1-child1 {
+  position: absolute;
+  top: 377px;
+  left: 47px;
+  border-radius: 8px;
+  background-color: var(--color-gainsboro-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 538px;
+  height: 602px;
+}
+.number-of-students {
+  position: absolute;
+  top: 377px;
+  left: 47px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 402px;
+  height: 78px;
+}
+.contribution,
+.current-research,
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  position: absolute;
+  top: 377px;
+  left: 449px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 136px;
+  height: 78px;
+}
+.contribution,
+.current-research,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 455px;
+}
+.contribution,
+.current-research,
+.div2,
+.div3,
+.div4,
+.div5,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 533px;
+}
+.contribution,
+.current-research,
+.div3,
+.div4,
+.div5,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 612px;
+}
+.contribution,
+.current-research,
+.div4,
+.div5,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 690px;
+}
+.contribution,
+.current-research,
+.div5,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 767px;
+}
+.contribution,
+.current-research,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 689px;
+  left: 47px;
+  width: 402px;
+}
+.contribution,
+.number-of-projects,
+.number-of-thesis,
+.professor-on-board {
+  top: 767px;
+}
+.contribution,
+.number-of-projects,
+.number-of-thesis {
+  top: 455px;
+}
+.contribution,
+.number-of-thesis {
+  top: 533px;
+}
+.contribution {
+  top: 611px;
+}
+.desktop-1-child2,
+.desktop-1-child3,
+.rectangle-section {
+  position: absolute;
+  top: 132px;
+  left: 609px;
+  background-color: var(--color-gainsboro-100);
+  width: 831px;
+  height: 351px;
+}
+.desktop-1-child2,
+.desktop-1-child3 {
+  top: 485px;
+}
+.desktop-1-child3 {
+  top: 838px;
+}
+.desktop-1-child4 {
+  position: absolute;
+  top: 135px;
+  left: 620.38px;
+  width: 786.62px;
+  height: 76.5px;
+}
+.desktop-1-child5 {
+  position: absolute;
+  top: 875px;
+  left: 148px;
+  border-radius: 16px;
+  background-color: var(--color-black);
+  width: 336px;
+  height: 82px;
+}
+.connect,
+.projects-uploaded {
+  position: absolute;
+  font-weight: 500;
+  display: flex;
+}
+.connect {
+  top: 875px;
+  left: 163px;
+  font-size: 44px;
+  color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+  width: 304px;
+  height: 82px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.projects-uploaded {
+  top: 134px;
+  left: 698px;
+  font-size: var(--font-size-12xl);
+  text-align: left;
+  align-items: flex-end;
+  width: 663px;
+  height: 61px;
+}
+.desktop-1-child6 {
+  position: absolute;
+  top: 246px;
+  left: 624px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child7 {
+  position: absolute;
+  top: 369px;
+  left: 619.05px;
+  width: 313.95px;
+  height: 88px;
+}
+.project-description {
+  position: absolute;
+  top: 421px;
+  left: 662px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child8 {
+  position: absolute;
+  top: 246px;
+  left: 965px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child9 {
+  position: absolute;
+  top: 369px;
+  left: 960.05px;
+  width: 313.95px;
+  height: 88px;
+}
+.project-description1 {
+  position: absolute;
+  top: 421px;
+  left: 1003px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child10 {
+  position: absolute;
+  top: 246px;
+  left: 1309px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child11 {
+  position: absolute;
+  top: 369px;
+  left: 1304.05px;
+  width: 310px;
+  height: 88px;
+}
+.project-description2 {
+  position: absolute;
+  top: 421px;
+  left: 1347px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child12 {
+  position: absolute;
+  top: 486px;
+  left: 620.38px;
+  width: 786.62px;
+  height: 76.5px;
+}
+.projects-uploaded1 {
+  position: absolute;
+  top: 485px;
+  left: 698px;
+  font-size: var(--font-size-12xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 663px;
+  height: 61px;
+}
+.desktop-1-child13 {
+  position: absolute;
+  top: 597px;
+  left: 624px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child14 {
+  position: absolute;
+  top: 720px;
+  left: 619.05px;
+  width: 313.95px;
+  height: 88px;
+}
+.project-description3 {
+  position: absolute;
+  top: 772px;
+  left: 662px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child15 {
+  position: absolute;
+  top: 597px;
+  left: 965px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child16 {
+  position: absolute;
+  top: 720px;
+  left: 960.05px;
+  width: 313.95px;
+  height: 88px;
+}
+.project-description4 {
+  position: absolute;
+  top: 772px;
+  left: 1003px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child17 {
+  position: absolute;
+  top: 597px;
+  left: 1309px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child18 {
+  position: absolute;
+  top: 720px;
+  left: 1304.05px;
+  width: 310px;
+  height: 88px;
+}
+.project-description5 {
+  position: absolute;
+  top: 772px;
+  left: 1347px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child19,
+.projects-uploaded2 {
+  position: absolute;
+  top: 837px;
+  left: 620.38px;
+  width: 786.62px;
+  height: 76.5px;
+}
+.projects-uploaded2 {
+  left: 698px;
+  font-size: var(--font-size-12xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 663px;
+  height: 61px;
+}
+.desktop-1-child20 {
+  position: absolute;
+  top: 944px;
+  left: 624px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child21 {
+  position: absolute;
+  top: 1062px;
+  left: 623px;
+  width: 310px;
+  height: 86.5px;
+}
+.project-description6 {
+  position: absolute;
+  top: 1114px;
+  left: 662px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child22 {
+  position: absolute;
+  top: 944px;
+  left: 965px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child23 {
+  position: absolute;
+  top: 1062px;
+  left: 964px;
+  width: 310px;
+  height: 86.5px;
+}
+.project-description7 {
+  position: absolute;
+  top: 1114px;
+  left: 1003px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.desktop-1-child24 {
+  position: absolute;
+  top: 944px;
+  left: 1309px;
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.desktop-1-child25 {
+  position: absolute;
+  top: 1062px;
+  left: 1308px;
+  width: 310px;
+  height: 86.5px;
+}
+.project-description8 {
+  position: absolute;
+  top: 1114px;
+  left: 1347px;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 252px;
+  height: 34px;
+}
+.component-2-icon,
+.component-3-icon,
+.component-4-icon {
+  position: absolute;
+  top: 479px;
+  left: 996.5px;
+  width: 152.5px;
+  height: 3px;
+}
+.component-3-icon,
+.component-4-icon {
+  top: 832px;
+}
+.component-4-icon {
+  top: 1141.5px;
+  height: 0;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
