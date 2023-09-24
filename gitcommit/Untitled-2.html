@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@import url("https://fonts.googleapis.com/css?family=Arbutus+Slab|Open+Sans&display=swap");
+body {
+    padding: 0;
+    margin: 0;
+  background: #e3f5f4;
+  color: #495456;
+  margin:40px;
+  font-family: Open Sans, sans-serif;
+}
+
+h2 {
+  font-family: Arbutus Slab, serif;
+  font-weight: normal;
+  color: #000;
+  line-height: 1.25;
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-gap: 48px;
+  margin: 0 auto;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  height: 0;
+  padding-bottom: 120%;
+  --offset-multiplier: 4px;
+  transition: transform 0.6s ease;
+  --translate: 0;
+  transform: translate(var(--translate), var(--translate));
+}
+.card:hover {
+  --offset-multiplier: 6px;
+}
+.card:hover {
+  --translate: calc(-1px * (var(--cards) - 1));
+  transition: transform 0.3s ease;
+}
+
+.child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  transition: inherit;
+  --translate: calc(var(--offset) * var(--offset-multiplier));
+  transform: translate(var(--translate), var(--translate));
+  z-index: 5;
+}
+.child:nth-child(1) {
+  --offset: 0;
+  z-index: 4;
+}
+.child:nth-child(2) {
+  --offset: 1;
+  z-index: 3;
+}
+.child:nth-child(3) {
+  --offset: 2;
+  z-index: 2;
+}
+.child:nth-child(4) {
+  --offset: 3;
+  z-index: 1;
+}
+.child:nth-child(5) {
+  --offset: 4;
+  z-index: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: #495456;
+    font-weight: bold;
+    font-style: oblique;
+}
+  #one{
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSYxX3ypxX5Vr0TKWyFIQsX1_rR9mT9SSDw&usqp=CAU");
+    background-repeat: no-repeat;
+  background-size:cover;
+
+  }
+  #two{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaLg_ClAFcRtIjNRm-v61oXDOPNsnZlq91_g&usqp=CAU");
+    background-repeat: no-repeat;
+  background-size:cover;
+
+  }
+  #three{
+    background-image: url("bio2.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #four{
+    background-image: url("arts.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #five{
+    background-image: url("ele.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #six{
+    background-image: url("mech.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #seven{
+    background-image: url("elec.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #eight{
+    background-image: url("robot.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #nine{
+    background-image: url("web.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #ten{
+    background-image: url("and.png");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #eleven{
+    background-image: url("cyber.jpeg");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  #twelve{
+    background-image: url("block.png");
+    background-repeat: no-repeat;
+  background-size:cover;
+ 
+  }
+  .search-box {
+  font-size: 20px;
+  position: absolute;
+  top: -60px;
+right: -50%;
+  border: solid 0.3em #000000;
+  display: inline-block;
+  position: relative;
+  border-radius: 1.5em;
+}
+.search-box input[type=text] {
+  font-family: inherit;
+  background-color: transparent;
+  font-weight: bold;
+  width: 5px;
+  height:5px;
+  padding: 15px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2.5em;
+  transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
+}
+.search-box input[type=text]:focus {
+  outline: none;
+}
+.search-box input[type=text]:focus, .search-box input[type=text]:not(:placeholder-shown) {
+  width: 28em;
+  transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.search-box input[type=text]:focus + button[type=reset], .search-box input[type=text]:not(:placeholder-shown) + button[type=reset] {
+  transform: rotate(-45deg) translateY(0);
+  transition: transform 150ms ease-out 800ms;
+}
+.search-box input[type=text]:focus + button[type=reset]:after, .search-box input[type=text]:not(:placeholder-shown) + button[type=reset]:after {
+  opacity: 1;
+  transition: top 150ms ease-out 950ms, right 150ms ease-out 950ms, opacity 150ms ease 950ms;
+}
+.search-box button[type=reset] {
+  background-color:rgb(217, 244, 244);
+  width: 15px;
+  height: 0.9em;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0.55em;
+  right: 0.55em;
+  transform: rotate(-45deg) translateY(2.2em);
+  transition: transform 150ms ease-out 150ms;
+}
+.search-box button[type=reset]:before, .search-box button[type=reset]:after {
+  content: "";
+  background-color: #070707;
+  width: 0.3em;
+  height: 1.4em;
+  position: absolute;
+}
+.search-box button[type=reset]:after {
+  transform: rotate(90deg);
+  opacity: 0;
+  transition: transform 150ms ease-out, opacity 150ms ease-out;
+}
+  .logo{
+    font-weight: bold;
+    color: #000000;
+  }
+
+        </style>
+</head>
+<body>
+  
+ 
+   <h1 class="logo">Unveil</h1>
+
+    <form class="search-box">
+      
+        <input type="text" placeholder=" "/>
+        <button type="reset"></button>
+      </form>
+
+<p>Dribbble Rebound of <a target="_blank" href="http://dribbble.com/shots/843289-Search-Bar?list=tags&tag=ui">Search Bar</a> by <a target="_blank" href="http://dribbble.com/craftyliang">Liang Shi</a></p>
+    <div class='container'>
+  <div class='card' style='--cards:5'>
+    <div class='child' id="one">
+ <a href="https://families.google/familylink/"    ><h3>Chemistry</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="two">
+        <a href="https://families.google/familylink/"    ><h3>Physics</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:2'>
+    <div class='child' id="three">
+        <a href="https://families.google/familylink/"    ><h3>Biology</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:4'>
+    <div class='child' id="four">
+        <a href="https://families.google/familylink/"    ><h3>Arts</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:4'>
+    <div class='child' id="five">
+        <a href="https://families.google/familylink/"    ><h3>Electronics</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="six">
+        <a href="https://families.google/familylink/"    ><h3>Mechanical</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:5'>
+    <div class='child' id="seven">
+        <a href="https://families.google/familylink/"    ><h3>ELectrical</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="eight">
+        <a href="https://families.google/familylink/"    ><h3>Robotics</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="nine">
+        <a href="https://families.google/familylink/"    ><h3>Web-Dev</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="ten">
+        <a href="https://families.google/familylink/"    ><h3>Android</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="eleven">
+        <a href="https://families.google/familylink/"    ><h3>Cyber</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+  <div class='card' style='--cards:3'>
+    <div class='child' id="twelve">
+        <a href="https://families.google/familylink/"    ><h3>Block Chain</h3> <p> Travel the universe with Science. Up and Atom! We Like The Element of Surprise.</p></a>
+    </div>
+    <div class='child'></div>
+    <div class='child'></div>
+  </div>
+</div>
+
+</body>
+</html>

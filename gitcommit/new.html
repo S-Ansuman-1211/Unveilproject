@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+
+   * {
+  font-family: 'Arima Madurai', sans-serif;
+}
+.intro{
+    display: flex;
+    flex-direction:column ;
+}
+body{
+  background-color: #e1e6ec;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: inline-flex;
+  background: #dcf5f8;
+  color: rgb(3, 3, 3);
+  box-shadow: 3px 5px 4px #d6d4d4;
+  align-items: center;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.brand {
+  flex: 1;
+  margin: 0 25px;
+}
+
+.menu {
+  display: flex;
+  list-style:none;
+  margin-right: 25px;
+}
+
+.menu li a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  position: relative;
+  padding-bottom: 15px;
+  bottom: -7px;
+}
+
+.search-input::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+
+.search-input {
+  height: 0px;
+  border:none;
+  position: absolute;
+  left: -200px;
+  visibility: hidden;
+  opacity: 0;
+  top: 40px;
+  color: rgb(0, 0, 0);
+  background: #d2fcf8;
+font-weight: bold;
+  padding: 9px;
+  font-size: 12px;
+  outline: none;
+  width: 250px;
+  transition: 80ms all ease-in;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: none;
+}
+
+.search-button {
+  background:transparent;
+  color: rgb(14, 13, 13);
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 4px;
+  border-radius: 9px;
+}
+
+.search-button:hover + .search-input, .search-input:hover, .search:hover .search-input {
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 9 !important;
+  box-shadow: 1px 3px 4px #E6E6E6;
+  height: 25px !important;
+}
+
+.center {
+  margin: auto;
+  display: flex;
+  flex-direction:row ;
+  gap: 25px;
+  height: 100vh;
+  width: 70%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 8%;
+  
+}
+.center1 {
+    width: 60%;
+    height: 100%;
+  
+    border: 1px solid black;
+  overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center1 .image1{
+ 
+   width: 100%;
+   height:60%;
+    background-image:url("elec.jpeg") ;
+   
+   background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.center2{
+  width: 50%;
+}
+.video1{
+    border: 1px solid black;
+    height: fit-content;
+}
+.inside{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+.slider{
+height: 100%;
+width: 24%;
+border: 1px solid ;
+}
+
+.section2{
+  width: 100%;
+  height: 80vh;
+ display: flex;
+ flex-direction: row;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.section2one{
+  width: 100%;
+  height: 80vh;
+ display: flex;
+ flex-direction: column;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.insideone{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.insideimg{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.insideinfo{
+  width: 100%;
+  height: 17.5%;
+  border: 1px solid black;
+
+}
+.slidertwo{
+  width: 50%;
+  height: 100%;
+  
+  border: 0.5px solid black;
+
+}
+
+.sectionbet2{
+  width: 100%;
+  height: 180vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.bet2art{
+  width: 100%;
+  height: 34%;
+
+  
+  display: flex;
+  gap: 5px;
+}
+.bet2img{
+ 
+  width: 40%;
+  height: 100%;
+  border: 1px solid black;
+
+}
+.bet2written{
+
+  width: 55%;
+  height: 100%;
+  border: 1px solid black;
+
+}
+ .sec2inside{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 48%;
+ } 
+  
+.innoimg{
+  height: 100%;
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  gap: 10px;
+ 
+}
+.sliderone{
+  height: 100%;
+  width: 48%;
+  border: 1px solid black;
+ 
+}
+       
+    
+
+    
+    
+  
+    
+    </style>
+</head>
+<body>
+    <section class="intro">
+ <div class="nav">
+   
+         
+            <div class="brand">
+              <h3>MyBrand</h3>
+            </div>
+
+            <div class="navigation">
+              <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">University</a></li>
+                <li><a href="#">Read later</a></li>
+                <li><a href="#">Classify</a></li>
+              </ul>
+              <div class="search">
+                <div class="search-content">
+                  <button class="search-button">
+                    <i class="fa fa-search"></i>Search </button>
+                  <input type="text" class="search-input" placeholder="Search here...">
+                </div>
+              </div>
+            </div>
+          
+         
+        </div>
+
+
+        <div class="center">
+
+            <div class="center1">
+            <div class="image1">
+               
+                    
+            </div>
+            <div>
+              <h3>How Not To Run a University: The Rohtak Investigation</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia pariatur blanditiis tempora nemo voluptate aut hic magnam ducimus placeat ut provident impedit, id quam architecto! Maxime necessitatibus itaque voluptates voluptatibus.
+              </p>
+            </div>
+              
+            </div>
+
+        
+            <div class="center2">
+                   <div class="video1">
+                    <video width="345" height="181" controls autoplay>
+                    <source src="WhatsApp Video 2023-09-20 at 16.36.32.mp4"
+                    type="video/mp4">
+                  </div>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolore!<br>
+                    </p>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolore!<br>
+                    </p>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolore!<br>
+                    </p>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolore!<br>
+                    </p>
+                  </div>
+
+            </div>
+
+
+
+
+
+  
+          </div>
+
+
+
+
+          
+          
+        </section>
+
+        <section class="section2one">
+          <div>
+            <h3> Popular Picks</h3>
+          </div>
+         <div class="inside">
+
+       
+          <div class="slider">Image hover
+          </div>
+          <div class="slider">Image hover
+          </div>
+          <div class="slider">Image hover
+          </div>
+          <div class="slider">Image hover
+          </div>
+
+        </div>
+
+        </section>
+
+
+
+        <section class="sectionbet2">
+ <div class="bet2art">
+       <div class="bet2img">Image</div>
+       <div class="bet2written">Description</div>
+ </div>
+ <div class="bet2art">
+  <div class="bet2img">Image</div>
+  <div class="bet2written">Description</div>
+ </div>
+ <div class="bet2art">
+  <div class="bet2img">Image</div>
+  <div class="bet2written">Description</div>
+ </div>
+
+
+
+
+
+
+
+
+        </section>
+        <section class="section2">
+
+          <div class="sec2inside">
+
+            <h3> Innovative ones >></h3>
+         
+                    <div class="innoimg">
+                     <div class="sliderone">Image hover
+                     </div>
+                      <div class="sliderone">Image hover
+                      </div>
+                        </div>
+
+             </div>
+
+         <div class="insideone">
+
+           <div class="insideinfo">
+               <h3>Electronics >></h3>
+           </div>
+         
+         <div class="insideimg">
+          <div class="slidertwo">Image hover
+          </div>
+          <div class="slidertwo">Image hover
+          </div>
+         </div>
+
+        </div>
+
+        </section>
+        <section class="section2">
+
+          <div class="sec2inside">
+
+            <h3> Most Viewed >></h3>
+         
+                    <div class="innoimg">
+                     <div class="sliderone">Image hover
+                     </div>
+                      <div class="sliderone">Image hover
+                      </div>
+                        </div>
+
+             </div>
+
+         <div class="insideone">
+
+           <div class="insideinfo">
+               <h3>Robotics >></h3>
+           </div>
+         
+         <div class="insideimg">
+          <div class="slidertwo">Image hover
+          </div>
+          <div class="slidertwo">Image hover
+          </div>
+         </div>
+
+        </div>
+
+        </section>
+        <script>
+          
+
+            </script>
+</body>
+</html>
